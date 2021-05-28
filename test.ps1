@@ -2,4 +2,4 @@
 ## List Hostname and Services
 
 hostname
-get-service 
+get-service | out-file c:\morpheus\pstest.txt
